@@ -1,12 +1,7 @@
 import React from 'react'
 
-
-
-const Header = props => {
+export default function Header() {
   return (
-    <div style = {{backgroundColor: props.color,
-    height: props.height, width: props.width}}></div>
+    <div style={{width: '100%', height: '300px', backgroundColor: '#6aa84f'}}></div>
   )
 }
-
-export default Header;
